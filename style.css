@@ -1,0 +1,806 @@
+/* Large desktop */ 
+@media (min-width: 978px) and (max-width: 1200px)
+{ 
+}
+	body {
+	  font-family: "Open Sans", sans-serif;
+	  background-color: #f9f9f7;
+
+	}
+	*{
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+	}
+	a
+	{
+		color: #ebffff;
+		text-decoration: none;
+	}
+	img
+	{
+	display: inline-block;
+	z-index: 6;
+	}
+	a:hover
+	{
+		text-shadow: 0 0 15px white;
+	}
+	div.header
+	{
+		margin: 0;
+		display: inline-block;
+		width: 100%;
+		height: 80px;
+		background-color: #ecece4;
+		position: relative;
+		z-index: 2;
+	}
+	div.head
+	{
+		display: inline-block;
+		width: 80%;
+		height: 70px;
+		border: 1px solid lightgray;
+		border-radius: 35px;
+		position: relative;
+		top: -40px;
+		margin-bottom: 10px;
+		left: 12%;
+		z-index: 1;
+	}
+	menu
+	{
+		width: 73%;
+		height: 45px;
+		background: -0-radial-gradient(at 50% -70%, #61a79d, #39665f);
+		background: -moz-radial-gradient(at 50% -70%, #61a79d, #39665f);
+		background: -webkit-radial-gradient(at 50% -70%, #61a79d, #39665f);
+		background: -chrome-radial-gradient(at 50% -70%, #61a79d, #39665f);
+		background: radial-gradient(at 50% -70%, #61a79d, #39665f);
+		background-position: -20%;
+		border-radius: 24px;
+		position: relative;
+		top: -122px;
+		
+		left: 14%;
+		z-index: 3;
+		box-shadow: 0 -5px 3px #d4dcc5;
+	}
+	ul.head-menu
+	{
+		list-style-type: none;
+		text-align: center;
+	}
+	li.header-menu 
+	{
+		margin: 0;
+		height: 40px;
+		display: inline-block;
+		position: relative;
+		right: 6%;
+		padding-left: 2%;
+		padding-right: 2%;
+		padding-top: 10px;
+		color: #ebffff;
+		font-size: 120%;
+	}
+	div.border-content
+	{
+		padding-top: 25px;
+		text-align: center;
+		display: inline-block;
+		position: relative;
+		top: -123px;
+		width: 80%;
+		height: 290px;
+		left: 12%;
+		border: 1px solid lightgray;
+		border-radius: 35px;
+	}
+	ul.mrk_1
+	{
+		list-style-image: url("Images\\marker1.gif");
+		text-align: left;
+		font-size: 120%;
+	}
+	ul.mrk_2
+	{
+		margin: 0;
+		padding: 0;
+		padding-left: 30px;
+		
+		position: relative;
+		list-style-image: url("Images\\marker2.gif");
+		text-align: left;
+		font-size: 120%;
+	}
+	li.content
+	{
+		margin-top: 22px;
+	}
+	div.img_1, div.img_2, div.img_3
+	{
+		border-radius: 10px;
+		height: 245px;
+		width: 32%;
+		background-size: 100% 82%;
+		display: inline-block;
+		z-index: 8;
+		margin: 2px;
+		box-shadow: 0 8px 5px #c7c5ca;
+		text-align: center;
+	}
+	div.img_1
+	{
+		background-image: url("Images\\Забронировать.gif");
+	}
+
+	div.img_2
+	{
+		background-image: url("Images\\Обменять.gif");
+	}
+	div.img_3
+	{
+		background-image: url("Images\\Недвижимость.gif");
+	}
+
+	footer.img
+	{
+		display: inline-block;
+		height: 20%;
+		width: 100%;
+		background-color: #01767d;
+		z-index: 2;
+		position: relative;
+		bottom: -200px;
+		border-bottom-left-radius: 10px;
+		border-bottom-right-radius: 10px;
+		line-height: 20%;
+	}
+	div.border-content_1
+	{
+		position: relative;
+		display: inline-block;
+		width: 76%;
+		height: 380px;
+		left: 12%;
+		
+		border: 1px solid lightgray;
+		border-radius: 35px;
+		top: -124px;
+		text-align: justify;
+		padding-top: 25px;
+		padding-left: 25px;
+		padding-right: 25px;
+		text-align: center;
+	}
+	header
+	{
+		position: relative;
+		display: inline-block;
+		text-align: left;
+		left: 0;
+		border: 1px solid #3e695f;
+		border-top-left-radius: 10px;
+		border-top-right-radius: 10px;
+		width: 100%;
+		height: 16%;
+		line-height: 16%;
+		background-color: #3e695f;
+		font-size: 90%;
+	}
+	div.direction
+	{
+		position: relative;
+		top: -5px;
+		display: inline-block;
+		width: 22%;
+		height: 360px;
+		border: 1px solid gray;
+		border-radius: 10px;
+		padding: 0;
+		text-align: center;
+		margin: 0;
+		float:left;
+	}
+	div.country, div.curort
+	{
+		margin-top: 10px;
+		color: #46454d;
+		display: inline-block;
+		text-align: left;
+		width: 45%;
+		position: relative;
+	}
+
+
+	span.head, span.head-curort 
+	{
+		font-size: 16px;
+		padding-left: 12px;
+	}
+	span.head-curort
+	{
+		border-left: 1px solid lightgray;
+	}
+	ul.direction, ul.direction-curort
+	{
+		display: inline-block;
+		padding-left: 20px;
+		margin-top: 10px;
+		border-top: 1px solid lightgray;
+	}
+	ul.direction-curort
+	{
+		border-left: 1px solid lightgray;
+	}
+	li.direction
+	{
+		font-size: 12px;
+		margin-top: 9px;
+	}
+
+	div.offers
+	{
+		position: relative;
+		display: inline-block;
+		width: 50%;
+		height: 360px;
+		border: 1px solid gray;
+		border-radius: 10px;
+		padding: 0;
+		margin: 0;
+		
+		margin-left: 0;
+		margin-right: 1%;
+		text-align: center;
+		top: -5px;
+	}
+
+	div.hotel-block
+	{
+		margin-top: 10px;
+		left: -10px;
+		margin-right: 6px;
+		margin-left: 6px;
+		display: inline-block;
+		position: relative;
+		width: 28%;
+		height: 290px;
+		text-align: left;
+		
+	}
+	div.hotel-img
+	{
+		width: 136px;
+		height: 142px;
+		border: 1px solid lightgray;
+		border-bottom-left-radius: 10px;
+		border-bottom-right-radius: 10px;
+		z-index: 6;
+	}
+
+
+	footer.hotel-img-footer
+	{
+		position: relative;
+		z-index: 7;
+		font-size: 12px;
+	}
+	span.price
+	{
+		color: #83ac28;
+		font-weight: bold;
+	}
+	span.hotel, span.country 
+	{
+		margin-top: 10px;
+		display: block;
+		color: #2a647a;
+		text-decoration: underline;
+		font-size: 16px;
+		margin-left: 3px;
+	}
+
+	p.hotel, p.country
+	{
+		margin-top: 0;
+		font-size: 12px;
+		margin-left: 3px;
+		color: #46454d;
+	}
+	p.country
+	{
+		text-align: left;
+	}
+	div.border
+	{
+		padding-left: 3px;
+		margin-left: 3px;
+		border-left: 2px solid #047a7a;
+	}
+	div.statte
+	{
+		position: relative;
+		display: inline-block;
+		width: 22%;
+		height: 360px;
+		border: 1px solid gray;
+		border-radius: 10px;
+		padding: 0;
+		margin: 0;
+		text-align: center;
+		top: -5px;
+	} 
+	span.country 
+	{
+		display: inline;
+		padding: 10px;
+	}
+	div.statte-block
+	{
+		display: inline-block;
+		margin-top: 6px;
+		margin-left: 6px;
+		width: 96%;
+		height: 125px;
+		text-align: left;
+	}
+	span.autor
+	{
+		padding-left: 5px;
+		font-size: 12px;
+		color: gray;
+	}
+	strong
+	{
+		padding-left: 5px;
+		font-size: 13px;
+	}
+	footer.statte
+	{
+		display: inline-block;
+		position: relative;
+		width: 97%;
+		height: 30px;
+		color: #f7ffcc;
+		background-color: #6fa614;
+		text-decoration: underline;
+		font-size: 12px;
+		border-bottom-left-radius: 10px;
+		border-bottom-right-radius: 10px;
+		margin-bottom: 0;
+		text-align: right;
+		padding-right: 3%;
+		line-height: 30px;
+		bottom: -14px;
+	}
+
+
+
+/* Portrait tablet to landscape and desktop */ 
+@media (min-width: 768px) and (max-width: 977px)
+{
+		menu
+			{
+			width: 65%;
+			height: 120px;
+			background: -0-radial-gradient(at 50% -70%, #61a79d, #39665f);
+			background: -moz-radial-gradient(at 50% -70%, #61a79d, #39665f);
+			background: -webkit-radial-gradient(at 50% -70%, #61a79d, #39665f);
+			background: -chrome-radial-gradient(at 50% -70%, #61a79d, #39665f);
+			background: radial-gradient(at 50% -70%, #61a79d, #39665f);
+			background-position: -20%;
+			border-radius: 24px;
+			position: relative;
+			top: -118px;
+			left: 17.2%;
+			z-index: 3;
+			box-shadow: 0 -5px 3px #d4dcc5;
+			text-align:center;
+			}
+		div.img_1, div.img_2, div.img_3 
+		{	
+			border-radius: 10px;
+			height: 245px;
+			width: 50%;
+			background-size: 100% 82%;
+			display: inline-block;
+			z-index: 8;
+			margin: 2px;
+			margin-top: 10px;
+			box-shadow: 0 8px 5px #c7c5ca;
+		}
+		div.border-content {
+			padding-top: 25px;
+			text-align: center;
+			display: inline-block;
+			position: relative;
+			top: -123px;
+			width: 76%;
+			height: 780px;
+			left: 12%;
+			border: 1px solid lightgray;
+			border-radius: 35px;
+		}
+		ul.mrk_1 {
+			list-style-image: url("Images\\marker1.gif");
+			text-align: left;
+			font-size: 100%;
+		}
+		div.border-content_1
+		{
+			position: relative;
+			display: inline-block;
+			width: 70%;
+			height: 120%;
+			left: 12%;
+			
+			border: 1px solid lightgray;
+			border-radius: 35px;
+			top: -124px;
+			text-align: justify;
+			padding-top: 25px;
+			padding-left: 25px;
+			padding-right: 25px;
+			text-align: center;
+		}
+		div.direction
+		{
+		position: relative;
+		top: -5px;
+		display: inline-block;
+		width: 100%;
+		height: 400px;
+		border: 1px solid gray;
+		border-radius: 10px;
+		padding: 0;
+		text-align: left;
+		margin-top: 5px;
+		float:left;
+		}
+		ul.direction, ul.direction-curort
+		{
+			display: block;
+			padding-left: 25px;
+			margin-top: 10px;
+			
+			border-top: 1px solid lightgray;
+		}
+		li.direction
+		{
+			font-size: 12px;
+			margin-top: 0px;
+		}
+		ul.mrk_2
+		{
+			margin: 0;
+			padding: 0;
+			padding-left: 30px;
+			
+			position: relative;
+			list-style-image: url("Images\\marker2.gif");
+			text-align: left;
+			font-size: 100%;
+		}
+		li.content
+		{
+			margin-top: 22px;
+		}
+		div.country, div.curort
+		{
+			margin-top: 10px;
+			color: #46454d;
+			display: inline-block;
+			text-align: left;
+			width: 48%;
+			position: relative;
+		
+		}
+		span.head, span.head-curort 
+		{
+			font-size: 16px;
+			padding-left: 0;
+		}
+		div.offers
+		{		
+			position: relative;
+			display: inline-block;
+			width: 100%;
+			height: 100%;
+			border: 1px solid gray;
+			border-radius: 10px;
+			padding: 0;
+			margin-top: 5px;
+			margin-left: 1%;
+			margin-right: 1%;
+			text-align: center;
+			right: 3px;
+		}
+		div.hotel-block
+		{
+			margin-top: 10px;
+			left: -10px;
+			margin-right: 6px;
+			margin-left: 0px;
+			display: inline-block;
+			position: relative;
+			width: 60%;
+			height: 270px;
+			
+			
+		}
+		div.hotel-img
+		{
+			width: 136px;
+			height: 142px;
+			border: 1px solid lightgray;
+			border-bottom-left-radius: 10px;
+			border-bottom-right-radius: 10px;
+			z-index: 6;
+		}
+		div.statte
+		{
+			position: relative;
+			display: inline-block;
+			width: 100%;
+			height: 360px;
+			border: 1px solid gray;
+			border-radius: 10px;
+			padding: 0;
+			margin: 0;
+			text-align: center;
+			top: 10px;
+			left: 0;
+		} 
+		footer.statte
+		{
+			display: inline-block;
+			position: relative;
+			width: 97%;
+			height: 30px;
+			color: #f7ffcc;
+			background-color: #6fa614;
+			text-decoration: underline;
+			font-size: 12px;
+			border-bottom-left-radius: 10px;
+			border-bottom-right-radius: 10px;
+			margin-bottom: 0;
+			text-align: right;
+			padding-right: 3%;
+			line-height: 30px;
+			bottom: -15px;
+		}
+} 
+
+/* Landscape phone to portrait tablet */ 
+@media (max-width: 767px) { ... } 
+
+/* Landscape phones and down */ 
+@media (min-width: 482px) and (max-width: 767px)
+{
+		menu
+		{
+			width: 65%;
+			height: 260px;
+			background: -0-radial-gradient(at 50% -70%, #61a79d, #39665f);
+			background: -moz-radial-gradient(at 50% -70%, #61a79d, #39665f);
+			background: -webkit-radial-gradient(at 50% -70%, #61a79d, #39665f);
+			background: -chrome-radial-gradient(at 50% -70%, #61a79d, #39665f);
+			background: radial-gradient(at 50% -70%, #61a79d, #39665f);
+			background-position: -20%;
+			border-radius: 24px;
+			position: relative;
+			top: -118px;
+			left: 13.2%;
+			z-index: 3;
+			box-shadow: 0 -5px 3px #d4dcc5;
+		}
+		li.header-menu {
+			margin: 0;
+			width:100%;
+			height: 40px;
+			display: inline-block;
+			position: relative;
+			text-align:center;
+			padding-left: 2%;
+			padding-right: 2%;
+			padding-top: 14px;
+			color: #ebffff;
+			font-size: 120%;
+		}
+		ul.head-menu {
+			position: relative;
+			left: -15%;
+			list-style-type: none;
+			text-align: center;
+		}
+		div.head
+		{
+			display: inline-block;
+			width: 80%;
+			height: 70px;
+			border: 1px solid lightgray;
+			border-radius: 35px;
+			position: relative;
+			top: -40px;
+			margin-bottom: 10px;
+			left: 10%;
+			z-index: 1;
+		}
+		div.img_1, div.img_2, div.img_3 {
+			border-radius: 10px;
+			height: 245px;
+			width: 90%;
+			background-size: 100% 82%;
+			display: inline-block;
+			z-index: 8;
+			margin: 2px;
+			margin-top: 10px;
+			box-shadow: 0 8px 5px #c7c5ca;
+		}
+		div.border-content {
+			padding-top: 25px;
+			text-align: center;
+			display: inline-block;
+			position: relative;
+			top: -123px;
+			width: 76%;
+			height: 780px;
+			left: 12%;
+			border: 1px solid lightgray;
+			border-radius: 35px;
+		}
+		ul.mrk_1 {
+			list-style-image: url("Images\\marker1.gif");
+			text-align: left;
+			font-size: 100%;
+		}
+		div.border-content_1
+		{
+			position: relative;
+			display: inline-block;
+			width: 65%;
+			height: 100%;
+			left: 12%;
+			
+			border: 1px solid lightgray;
+			border-radius: 35px;
+			top: -124px;
+			text-align: justify;
+			padding-top: 25px;
+			padding-left: 25px;
+			padding-right: 25px;
+			text-align: center;
+		}
+		div.direction
+		{
+		position: relative;
+		top: -5px;
+		display: inline-block;
+		width: 100%;
+		height: 250px;
+		border: 1px solid gray;
+		border-radius: 10px;
+		padding: 0;
+		text-align: left;
+		margin-top: 5px;
+		float:left;
+		}
+		ul.direction, ul.direction-curort
+		{
+			display: inline-block;
+			padding-left: 25px;
+			margin-top: 10px;
+			
+			border-top: 1px solid lightgray;
+		}
+		li.direction
+		{
+			font-size: 12px;
+			margin-top: 0px;
+		}
+		ul.mrk_2
+		{
+			margin: 0;
+			padding: 0;
+			padding-left: 30px;
+			
+			position: relative;
+			list-style-image: url("Images\\marker2.gif");
+			text-align: left;
+			font-size: 100%;
+		}
+		li.content
+		{
+			margin-top: 22px;
+		}
+		div.country, div.curort
+		{
+			
+			margin-top: 10px;
+			color: #46454d;
+			display: inline-block;
+			text-align: left;
+			width: 48%;
+			position: relative;
+		}
+		span.head, span.head-curort 
+		{
+			display: block;
+			font-size: 16px;
+			padding-left: 0;
+		}
+		div.offers
+		{		
+			position: relative;
+			display: inline-block;
+			width: 100%;
+			height: 100%;
+			border: 1px solid gray;
+			border-radius: 10px;
+			padding: 0;
+			margin-top: 5px;
+			margin-left: 1%;
+			margin-right: 1%;
+			text-align: center;
+			right: 3px;
+		}
+		div.hotel-block
+		{
+			margin-top: 10px;
+			left: -10px;
+			margin-right: 6px;
+			margin-left: 0px;
+			display: inline-block;
+			position: relative;
+			width: 60%;
+			height: 270px;
+			
+			
+		}
+		div.hotel-img
+		{
+			width: 136px;
+			height: 142px;
+			border: 1px solid lightgray;
+			border-bottom-left-radius: 10px;
+			border-bottom-right-radius: 10px;
+			z-index: 6;
+		}
+		div.statte
+		{
+			position: relative;
+			display: inline-block;
+			width: 100%;
+			height: 360px;
+			border: 1px solid gray;
+			border-radius: 10px;
+			padding: 0;
+			margin: 0;
+			text-align: center;
+			top: 10px;
+			left: 0;
+		} 
+		footer.statte
+		{
+			display: inline-block;
+			position: relative;
+			width: 97%;
+			height: 30px;
+			color: #f7ffcc;
+			background-color: #6fa614;
+			text-decoration: underline;
+			font-size: 12px;
+			border-bottom-left-radius: 10px;
+			border-bottom-right-radius: 10px;
+			margin-bottom: 0;
+			text-align: right;
+			padding-right: 3%;
+			line-height: 30px;
+			bottom: -15px;
+		}
+	}
